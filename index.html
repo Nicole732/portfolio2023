@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Font QuickStand-->
+  <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!--CSS Styles -->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png" />
+
+  <!-- Animate CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <title>Ketchdn | Cloud Engineer - Web Developer</title>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav>
+    <h1>DORINE NICOLE KETCHIOZO</h1>
+    <ul class="navigation">
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#experience" class="nav-link">Experience</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <button class="burger-menu" id="burger-menu">
+      <ion-icon class="bars" name="menu-outline"></ion-icon>
+      <!-- <ion-icon class="times" name="close-outline"></ion-icon> -->
+    </button>
+  </nav>
+
+
+
+  <!-- Hero Section -->
+  <section class="hero" id="about">
+    <div class="div-hero-img">
+      <img src="./assets/images/avataaars2.svg" alt="Dorine Nicole avataaars" loading="lazy" class="hero-img" />
+    </div>
+    <div class="bio animate__animated animate__shakeX">
+      <h2 class="bio-title">About Me</h2>
+      <p class="bio-text">
+        Certified Cloud Engineer skilled in building cloud solutions using AWS services, combined with <b>10+ </b>years
+        of overall technology experience as a <b>cloud developer, web developer</b>, and <b>social media
+          coordinator</b>. Analytical with problem-solving skills and the ability to function well in a team-oriented or
+        self-directed environment. <b>AWS Solutions Architect - Associate, AWS Cloud Practioner, Comptia Security+
+          certified.</b>
+      </p>
+    </div>
+  </section>
+
+
+
+  <!-- Skills section -->
+  <section class="skills" id="skills">
+    <h2 class="skill-header">My Top Skills</h2>
+
+    <div class="skills-wrapper">
+      <div class="first-set animate__animated animate__pulse">
+        <img src="assets/icons/icons8-amazon-web-services-48.svg" alt="AWS services" loading="lazy"
+          class="icon icon-card" />
+        <img src="assets/icons/icons8-linux-96.png" alt="Linux" loading="lazy" class="icon icon-card" />
+        <img src="assets/icons/icons8-git.svg" alt="Git" loading="lazy" class="icon icon-card" />
+        <img src="assets/images/aws-certified-solutions-architect-associate.png" alt="AWS SA-A" loading="lazy"
+          class="icon icon-card" />
+        <img src="assets/images/aws-certified-cloud-practitioner (3).png" alt="AWS CP" loading="lazy"
+          class="icon icon-card" />
+      </div>
+
+      <div class="second-set animate__animated animate__pulse">
+        <img src="assets/icons/icons8-python-240.png" alt="Python" loading="lazy" class="icon icon-card" />
+        <img src="assets/icons/icons8-wordpress-240.png" alt="WordPress" loading="lazy" class="icon icon-card" />
+        <img src="assets/icons/icons8-bootstrap.svg" alt="BootStrap" loading="lazy" class="icon icon-card" />
+        <img src="assets/icons/icons8-javascript.svg" alt="JavaScript" loading="lazy" class="icon icon-card" />
+        <img src="assets/icons/icons8-react-native.svg" alt="React" loading="lazy" class="icon icon-card" />
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects section 2 - Cards with carroussel-->
+  <section class="projects" id="projects">
+    <h2 class="projects-title">Latest Projects</h2>
+    <!-- removed captions and indicators-->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="projects-container">
+            <!--Project 1-->
+            <div class="project-container project-card">
+              <img src="./assets/images/cloudproject2/maincontactflowinboundcalls.png" alt="contact flow view"
+                loading="lazy" class="project-pic" />
+              <h3 class="project-title">Amazon Connect Contact Center</h3>
+              <p class="project-details">
+                Built a simple contact center for a business using AWS service Amazon Connect. It has three queues for
+                sales, customer service and technical support. The main contact flow for inbound calls shows the
+                customer
+                experience from start to end.
+              </p>
+              <a href="awsconnect.html" target="_blank" class="project-link">Check it Out</a>
+            </div>
+            <!--Project 2-->
+            <div class="project-container project-card">
+              <img src="assets/images/python/viewpayrollpy.png " alt="python payroll" loading="lazy"
+                class="project-pic" />
+              <h3 class="project-title">Python Payroll</h3>
+              <p class="project-details">
+                Used Python to create this payroll, resulting in implementation of improved payroll system for client.
+              </p>
+              <a href="https://github.com/Dorinetk/pythonpayroll" target="_blank" class="project-link">Check it
+                Out</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="projects-container">
+            <!-- Project 3-->
+            <div class="project-container project-card">
+              <img src="./assets/images/cloudproject1/energyconsumptiondashboard.png" alt="energy dashboard view"
+                loading="lazy" class="project-pic" />
+              <h3 class="project-title">Energy Consumption Dashboard</h3>
+              <p class="project-details">
+                Used AWS services, including Glue DataBrew, Glue, S3, Athena, and QuickSight, to clean, transform,
+                store, query and visualize energy consumption data across many facilities of company.
+              </p>
+              <a href="awsquicksight.html" target="_blank" class="project-link">Check it out</a>
+            </div>
+            <!-- Past Projects -->
+            <div class="project-container project-card">
+              <img src="./assets/images/coverimage.jpg " alt="energy dashboard view" loading="lazy"
+                class="project-pic" />
+              <h3 class="project-title">Archived Projects</h3>
+              <p class="project-details">
+                View more projects focusing on web development on my first portfolio website.
+              </p>
+              <a href="https://dorinetk.github.io/ResponsivePortfolio/" target="_blank" class="project-link">Check it
+                out</a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon  carousel-button" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon carousel-button" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- More about -->
+  <section class="contact" id="experience">
+    <h2>Professional Experience</h2>
+    <div class="contact-form-container">
+      <div class="contact-form">
+        <h3 class="project-title">Technology Architect Delivery Specialist</h3>
+        <p class="project-details">
+          <a href="https://www.accenture.com/us-en" target="_blank" class="project-link">Accenture</a>
+          <img src="assets/icons/icons8-calendar-16.png" alt="calendar" class="profexp-icon" />Feb. 2022 till now</br>
+        </p>
+        <h3 class="project-title">Cloud Engineer- Intern</h3>
+        <p class="project-details">
+          <a href="https://www.bellefleurtech.com/" target="_blank" class="project-link">Belle-Fleur Technologies</a>
+          <img src="assets/icons/icons8-calendar-16.png" alt="calendar" class="profexp-icon" />Jul. 2021 - Nov. 2021 </br>
+        </p>
+        <h3 class="project-title">Web Developer</h3>
+        <p class="project-details">
+          <a>Self-Employed </a><img src="assets/icons/icons8-calendar-16.png" alt="calendar" class="profexp-icon" />2019
+          -2022 </br>
+        </p>
+        <h3 class="project-title">Webmaster / Social Media Manager</h3>
+        <p class="project-details">
+          <a href="https://cm.usembassy.gov/" target="_blank">U.S. State Department: U.S. Embassy Yaounde </a> <img
+            src="assets/icons/icons8-calendar-16.png" alt="calendar" class="profexp-icon" />2003 - 2019 </br>
+        </p>
+        <p><span class="alignright"> Download Resume<a
+              href="./assets/pdf/Dorine Nicole Ketchiozo_cloud01112022resume.pdf" target="_blank" alt="resume"><img
+                src="assets/icons/icons8-download-48 (1).png" alt="calendar" class="profexp-icon" /> </a></span></p>
+
+      </div>
+
+  </section>
+
+  <!-- Contact section -->
+  <section class="contact" id="contact">
+    <h2>I'd Love to Hear From You</h2>
+    <div class="contact-form-container">
+      <div class="contact-form">
+        <form action="https://formspree.io/f/meqnelbw" method="POST">
+
+
+          <div class="form-group mb-3">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="sender-name" placeholder="Enter Your Name" class="input-field"
+              required />
+          </div>
+          <div class="form-group mb-3">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="sender-email" placeholder="Enter Your Email" class="input-field"
+              required />
+          </div>
+          <div class="form-group mb-3">
+            <label for="message">Message</label>
+            <textarea id="message" cols="60" rows="10" placeholder="Enter Your Message" name="message"
+              class="input-field" required></textarea>
+          </div>
+          <input type="submit" value="Submit" id="submit-btn" class="btn btn-primary" />
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Social accounts - Fixed to the right -->
+  <div class="socials">
+    <a href="https://twitter.com/ketchdn" target="_blank"><img src="assets/icons/icons8-twitter-circled.gif"
+        alt="Twitter" loading="lazy" class="socicon" /></a>
+    <a href="https://www.linkedin.com/in/ketchdt" target="_blank"><img src="assets/icons/icons8-linkedin-circled.gif"
+        alt="Linkedin" loading="lazy" class="socicon" /></a>
+    <a href="https://github.com/Dorinetk" target="_blank"><img src="assets/icons/icons8-github.gif" alt="Github"
+        class="socicon" /></a>
+  </div>
+
+  <!-- Scroll to top -->
+  <i class="scroll-up" id="scroll-up"><img src="assets/icons/icons8-upward-arrow.gif" class="socicon up-arrow"
+      alt="" /></i>
+
+  <!-- Footer section -->
+  <footer>
+    <div class="container p4">
+      <div class="row">
+        <div class="col col-lg-6 col-md-6 pt-3">
+          <p class="copy">
+            &copy; 2022 Dorine Nicole Ketchiozo (Ketchdn).
+            <img src="assets/images/aws-certified-solutions-architect-associate.png" class="socicon" />
+            <img src="assets/images/aws-certified-cloud-practitioner (1).png" class="socicon" />
+            <img src="assets/images/comptia-security-ce-certification (1).png" class="socicon" />
+          </p>
+        </div>
+        <div class="col col-lg-2 col-md-4 d-flex justify-content-center align-items-center">
+          <a href="https://github.com/Dorinetk"" target=" _blank" alt="github"><img
+              src="./assets/icons/icons8-github-32.png" /> </a>
+          <a href="https://www.linkedin.com/in/ketchdt/"" target=" _blank" alt="linkedin"><img
+              src="./assets/icons/icons8-linkedin-30.png" /> </a>
+          <a href="https://twitter.com/ketchdn"" target=" _blank" alt="Twitter"><img
+              src="./assets/icons/icons8-twitter-30.png" /> </a>
+        </div>
+        <div class="col col-lg-4 d-flex justify-content-center flex-column">
+          <p>
+            <a href="terms.html" target=" _blank" class="text-dark ">Terms of Use</a> |
+            <a href="privacy.html" target=" _blank" class="text-dark">Privacy</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!--<p class="copy">
+       &copy; 2022 Dorine Nicole Ketchiozo (Ketchdn). All rigths reserved. 
+      <span class="alignright"> <a href="https://github.com/Dorinetk" target="_blank">github
+      </a></span>
+    </p>-->
+  </footer>
+
+  <!-- Website scripts -->
+  <script src="assets/js/app.js"></script>
+
+  <!-- Ion icons scripts -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <!-- Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
