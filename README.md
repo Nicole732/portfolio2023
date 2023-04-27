@@ -6,7 +6,7 @@ Welcome to my portfolio. It is fully responsive and uses Bootstrap 5, HTML, CSS 
 
 ## Author
 
-[LinkedIn:ketchdt](linkedin.com/in/ketchdt) Dorine Nicole Ketchiozo
+[LinkedIn](linkedin.com/in/nicoledk) Dorine Nicole Ketchiozo
 
 ## Sample Published Website
 
