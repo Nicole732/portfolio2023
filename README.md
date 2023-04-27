@@ -2,7 +2,7 @@
 
 Welcome to my portfolio. It is fully responsive and uses Bootstrap 5, HTML, CSS and Javascript.
 
-![Ketchdn](./assets/images/2022portfolio.png)
+<!-- ![Ketchdn](./assets/images/2022portfolio.png) -->
 
 ## Author
 
