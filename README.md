@@ -10,8 +10,7 @@ Welcome to my portfolio. It is fully responsive and uses Bootstrap 5, HTML, CSS 
 
 ## Sample Published Website
 
-A live website is already available via this [link](https://ketchdn.netlify.app/)
-The final version will be published on AWS.
+A live website is published at [link](https://nicoledk.com/)
 
 ## Tech Stack
 
