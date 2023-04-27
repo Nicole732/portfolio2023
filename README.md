@@ -28,5 +28,5 @@ Below are are list of tools used, and the precise things they were used for:
 
 ## Acknowledgements
 
-- [Initial Template](https://github.com/Ksound22/developer-portfolio) from Kolade Chris.
+- [Template](https://github.com/Ksound22/developer-portfolio) from Kolade Chris.
 
