@@ -1,4 +1,4 @@
-# DORINE NICOLE KETCHIOZ - PORTFOLIO
+# DORINE NICOLE KETCHIOZO - PORTFOLIO
 
 Welcome to my portfolio. It is fully responsive and uses Bootstrap 5, HTML, CSS and Javascript.
 
