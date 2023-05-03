@@ -2,16 +2,15 @@
 
 Welcome to my portfolio. It is fully responsive and uses Bootstrap 5, HTML, CSS and Javascript.
 
-![Ketchdn](./assets/images/2022portfolio.png)
+<!-- ![Ketchdn](./assets/images/2022portfolio.png) -->
 
 ## Author
 
-[LinkedIn:ketchdt](linkedin.com/in/ketchdt) Dorine Nicole Ketchiozo
+[LinkedIn](linkedin.com/in/nicoledk) Dorine Nicole Ketchiozo
 
 ## Sample Published Website
 
-A live website is already available via this [link](https://ketchdn.netlify.app/)
-The final version will be published on AWS.
+A live website is published at [link](https://nicoledk.com/)
 
 ## Tech Stack
 
@@ -28,5 +27,5 @@ Below are are list of tools used, and the precise things they were used for:
 
 ## Acknowledgements
 
-- [Initial Template](https://github.com/Ksound22/developer-portfolio) from Kolade Chris.
+- [Template](https://github.com/Ksound22/developer-portfolio) from Kolade Chris.
 
