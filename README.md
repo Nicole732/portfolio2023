@@ -18,7 +18,7 @@ A live website is published at [link](https://nicoledk.com/)
 
 ## Tools Used
 
-Below are are list of tools used, and the precise things they were used for:
+Below is a list of tools used, and the precise things they were used for:
 
 - [Ion Icons](https://ionic.io/ionicons) for hambuger menu bar
 - [getavataaars](https://getavataaars.com/) for Dorine Nicole Ketchiozo Avaatar.
